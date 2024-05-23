@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "items-3b"
+version = "0.1.0"
+description = "Technical test for 3B company"
+authors = ["Liliana Martinez <liliana.martinezgo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+sqlalchemy = "^2.0.30"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
